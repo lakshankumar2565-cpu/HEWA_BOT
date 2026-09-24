@@ -1318,7 +1318,7 @@ async function setupCommandHandlers(socket, number) {
                             image: { url: SHANA_IMG },
                             caption:
 `*📌පහල සියලුම Betting සයිට් වලට deposite & Withdrawal කරණු ලැබේ.* 
-${readMore}
+
 🪄1x bet
 🪄Cold bet
 🪄Waw bet
@@ -1352,7 +1352,7 @@ pending.......
                             caption:
 `HEWA WITHDRAWALSERVICE
 🪄🪄🪄🪄🪄🪄🪄🪄🪄
-${readMore}
+
 
  ❇️1x bet 
 Colmbo 
