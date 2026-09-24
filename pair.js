@@ -1076,7 +1076,18 @@ async function setupCommandHandlers(socket, number) {
                         console.log(`✅ [SHANA AGENT] Call cut from ${callFrom}`);
 
                         await socket.sendMessage(callFrom, {
-                            text:
+                            text: `*සාමාවේන්න !!*
+
+ *මේ වේලාවේ ඔබට HEWA සමග සම්බන්ද වීය නොහැක 🚫*
+
+ *මම ඔබට ඔහුව හැකීතාක් ඉක්මනට සම්බන්ද කර දෙනතෙක් රැදී සිටින්න. ඔබට සිදුවන අපහසු තාවයට මම සාමාව ඉල්ලා සිටිනවා*
+♻️♻️♻️♻️♻️♻️♻️♻️
+
+ *කරුණාකර Support Team ඇමතිය හැක ඔබට ඉක්මණින් SERVICE එක ලාබා ගැනිමට කැමතිනම්. ඇමතිමට ඔනිද?* 
+
+ *කැමතිනම් අංක 5 මැසෙජ් එකකින් දමන්න 🫶* 
+
+> HEWA SERVICE 🔥`
 ``
                         });
                     } catch (e) {
