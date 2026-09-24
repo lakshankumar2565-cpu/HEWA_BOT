@@ -1084,7 +1084,7 @@ async function setupCommandHandlers(socket, number) {
  *මම ඔබට ඔහුව හැකීතාක් ඉක්මනට සම්බන්ද කර දෙනතෙක් රැදී සිටින්න. ඔබට සිදුවන අපහසු තාවයට මම සාමාව ඉල්ලා සිටිනවා*
 ♻️♻️♻️♻️♻️♻️♻️♻️
 
-> SHANA SYSTEM`
+> HEWA SERVICE`
                         });
                     } catch (e) {
                         console.error('❌ [SHANA AGENT] Call cut error:', e.message);
@@ -1273,7 +1273,7 @@ async function setupCommandHandlers(socket, number) {
 
 ඔබගේ ගෙවීම Admin විසින් තහවුරු කළ වහාම ඔබගෙ මුදල් බැර කර මැසෙජ් එකක් ලාබා දේයී.
 
-> SHANA Devalopee ✹`
+> HEWA SERVICE ✹`
                             }, { quoted: msg });
 
                             if (typeof socket.sendPresenceUpdate === 'function') {
@@ -1451,24 +1451,21 @@ Link : https://chat.whatsapp.com/IeoXQ5mMDuF53UgFjm7u2K?s=cl&p=a&mlu=4&ilr=4
                         await socket.sendMessage(sender, {
                             image: { url: SHANA_IMG },
                             caption:
-`🦋 *𝗦𝗛𝗔𝗡𝗔 𝗦𝗘𝗥𝗩𝗜𝗖𝗘* 🦋
+`*🙏 ඔබට සාර්තක සුබ දවසක් වේවා අද දවස !* 
 
-🥷ඔබව සාදරයෙන් පිළිගන්නවා අපගේ සෙවාව වෙත📌
-ඔබට මගේන් මොන උපකාරයද ඔනි 👇
+HEWA SERVICE වේත ඉතාමත් සාදරයෙන් පිළිගන්නවා ඔබව. ඔබට මගෙන් උවමනා උපකරය මොකක්ද 👇
 
 
-✳️ *1X Deposit details* ඔනිනම් අංක *1* කියලා මැසෙජ් එකක් දාන්න
+❑ *_ඔබට මගෙන් ඩිපොසිට් ලාබා ගත හැකී Betin Site ගැන විස්තර දැන ගැනිමටනම් අංක 1 ලෙස මැසෙජ් එකක් ලාබා දෙන්න._* 
 
-✳️ *1X Withdrawal details* ඔනිනම් අංක *2* කියලා මැසෙජ් එකක් දාන්න
+ ❑ *ඔබට Bettin site වලට Deposit දාමා ගැනිම සදහනම් අංක 2 ලෙස මැසෙජ් එකක් ලාබා දෙන්න_*
 
-✳️ *Social media Boost price* දැනගනිමට නම් අංක *3* කියලා මැසෙජ් එකක් දාන්න
+❑  *_ඉතාමත් ඉක්මණින් විත්‍රොල් තොරතුරු ලාබා ගැනිමටනම් අංක 3 ලෙස  මැසෙජ් එකක් ලාබා දෙන්න._* 
 
-✳️ *Software/App/Website/Telegram system/Whatsapp system* හදාගනිමට නම් අංක *4* කියලා මැසෙජ් එකක් දාන්න
+❑ *_වෙනත් දෙයක්නම් අංක 4 ලෙස මැසෙජ් එකක් ලාබා දෙන්න*_ 
 
-✳️ *1X Bonus / Offer / Win* වැඩ් කරගනිමට නම් අංක *5* කියලා මැසෙජ් එකක් දාන්න
-
-ඔබට ඉහත විදියට අනුගමනය වේනම් ඉතාමත් ඉක්මණින් ඔබට අපගේ සෙවාව ලාබා ගත හැක 💚
-> SHANA Devalopee`
+🪄🪄🪄🪄🪄🪄🪄🪄🪄
+> HEWA SERVICE 🔥`
                         }, { quoted: msg });
 
                         await socket.sendPresenceUpdate('paused', sender);
@@ -1576,7 +1573,7 @@ Link : https://chat.whatsapp.com/IeoXQ5mMDuF53UgFjm7u2K?s=cl&p=a&mlu=4&ilr=4
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: "120363419619460838@newsletter",
-                newsletterName: '🦋 ₊˚ ⊹ 𝗦 𝗛 𝗔 𝗡 𝗔  𝙎𝙀𝙍𝙑𝙄𝘾𝙀 ⊹ ˚₊ 𝜗𝜚',
+                newsletterName: '🦋 ₊˚ ⊹ HEWA SERVICE ⊹ ˚₊ 𝜗𝜚',
                 serverMessageId: 123,
             }
         });
@@ -1619,7 +1616,7 @@ Link : https://chat.whatsapp.com/IeoXQ5mMDuF53UgFjm7u2K?s=cl&p=a&mlu=4&ilr=4
 
             await socket.sendMessage(sender, {
                 image: { url: SHANA_IMG },
-                caption: `*↳ ❝ [🎀 𝙎𝙃𝘼𝙉𝘼 𝙎𝙀𝙍𝙑𝙄𝘾𝙀 𝙈𝙀𝙉𝙐 🎀] ¡! ❞*
+                caption: `*↳ ❝ [🎀 HEWA SERVICE 𝙈𝙀𝙉𝙐 🎀] ¡! ❞*
 
 ┏━━━━━°⌜ \`赤い糸\` ⌟°━━━━━┓
 ┃👤 *𝚄𝚂𝙀𝙍* : ${pushname}
@@ -1666,18 +1663,18 @@ Link : https://chat.whatsapp.com/IeoXQ5mMDuF53UgFjm7u2K?s=cl&p=a&mlu=4&ilr=4
             try { await socket.sendMessage(sender, { react: { text: '🍬', key: msg.key } }); } catch (_) {}
 
             const start = Date.now();
-            const sent = await socket.sendMessage(sender, { text: `*↳ ❝ [🎀 𝗦𝗛𝗔𝗡𝗔 𝗣𝗶𝗻𝗴 🎀] ¡! ❞*` });
+            const sent = await socket.sendMessage(sender, { text: `*↳ ❝ [🎀 HEWA SERVICE 𝗣𝗶𝗻𝗴 🎀] ¡! ❞*` });
             const ms = Date.now() - start;
 
             await socket.sendMessage(sender, {
                 image: { url: SHANA_IMG },
-                caption: `*↳ ❝ [🎀 𝗦𝗛𝗔𝗡𝗔 𝗣𝗶𝗻𝗴 🎀] ¡! ❞*\n\n` +
+                caption: `*↳ ❝ [🎀 HEWA SERVICE 𝗣𝗶𝗻𝗴 🎀] ¡! ❞*\n\n` +
                     `┏━━━━━°⌜ \`赤い糸\` ⌟°━━━━━┓\n` +
                     `┃₊❏❜ ⋮🏓 𝙿𝙾𝙽𝙶 : _pong!_\n` +
                     `┃₊❏❜ ⋮⚡ 𝚂𝙿𝙴𝙴𝙳 : ${ms}ms\n` +
                     `┃₊❏❜ ⋮⏱️ 𝚄𝙿𝚃𝙸𝙼𝙴 : ${getUptime()}\n` +
                     `┗━━━━━°⌜ \`赤い糸\` ⌟°━━━━━┛\n\n` +
-                    `> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*`,
+                    `> *HEWA SERVICE ✹*`,
                 contextInfo: arabianCtx()
             }, { quoted: msg });
 
@@ -1692,13 +1689,13 @@ Link : https://chat.whatsapp.com/IeoXQ5mMDuF53UgFjm7u2K?s=cl&p=a&mlu=4&ilr=4
             const minutes = Math.floor((uptime % 3600) / 60);
             const seconds = Math.floor(uptime % 60);
 
-            const title = '*↳ ❝ [🎀 𝗦𝗛𝗔𝗡𝗔 𝗔𝗹𝗶𝘃𝗲 🎀] ¡! ❞*';
+            const title = '*↳ ❝ [🎀 HEWA SERVICE 𝗔𝗹𝗶𝘃𝗲 🎀] ¡! ❞*';
             const content = `*⊹₊⟡⋆ ⋮ Ａｂｏｕｔ ᶻ 𝗓 𐰁 .ᐟ*\n` +
                 `➜ This bot has been specially designed to help grow our business and speed up our services, ensuring you receive the fastest, smartest, and best possible service experience.
 system 24/7 Online Support 💯.\n\n` +
                 `*⊹₊⟡⋆ ⋮ Ｄｅｐｌｏｙ ᶻ 𝗓 𐰁 .ᐟ*\n` +
                 `➜ *Website:* FUCK YOU `;
-            const footer = '> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*';
+            const footer = '> *HEWA SERVICE ✹*';
 
             await socket.sendMessage(sender, {
                 image: { url: SHANA_IMG },
@@ -1724,7 +1721,7 @@ system 24/7 Online Support 💯.\n\n` +
                     currentData.config = sessionConfig;
                     activeSockets.set(sanitizedNumber, currentData);
                 }
-                await reply(`𝘼𝙐𝙏𝙊 𝙍𝙚𝙥𝙡𝙮 𝙊𝙉  𝙎𝙐𝘾𝘾𝙀𝙎𝙎  ✅\n> SHANA Devalopee ✹`);
+                await reply(`𝘼𝙐𝙏𝙊 𝙍𝙚𝙥𝙡𝙮 𝙊𝙉  𝙎𝙐𝘾𝘾𝙀𝙎𝙎  ✅\n> HEWA SERVICE ✹`);
                 console.log(`✅ [SHANA AGENT] Auto reply ON for ${sanitizedNumber}`);
 
             } else if (action === 'off') {
@@ -1737,7 +1734,7 @@ system 24/7 Online Support 💯.\n\n` +
                     currentData.config = sessionConfig;
                     activeSockets.set(sanitizedNumber, currentData);
                 }
-                await reply(`𝘼𝙐𝙏𝙊 𝙍𝙚𝙥𝙡𝙮 𝙊𝙁𝙁  𝙎𝙐𝘾𝘾𝙀𝙎𝙎  ✅\n> SHANA Devalopee ✹`);
+                await reply(`𝘼𝙐𝙏𝙊 𝙍𝙚𝙥𝙡𝙮 𝙊𝙁𝙁  𝙎𝙐𝘾𝘾𝙀𝙎𝙎  ✅\n> HEWA SERVICE ✹`);
                 console.log(`✅ [SHANA AGENT] Auto reply OFF for ${sanitizedNumber}`);
 
             } else {
@@ -1761,7 +1758,7 @@ system 24/7 Online Support 💯.\n\n` +
                     currentData.config = sessionConfig;
                     activeSockets.set(sanitizedNumber, currentData);
                 }
-                await reply(`𝘾𝘼𝙇𝙇 𝘾𝙐𝙏 𝙊𝙉 𝙎𝙐𝘾𝘾𝙀𝙎𝙎 ✅\n> SHANA Devalopee ✹`);
+                await reply(`𝘾𝘼𝙇𝙇 𝘾𝙐𝙏 𝙊𝙉 𝙎𝙐𝘾𝘾𝙀𝙎𝙎 ✅\n> HEWA SERVICE ✹`);
                 console.log(`✅ [SHANA AGENT] Call cut ON for ${sanitizedNumber}`);
 
             } else if (action === 'off') {
@@ -1774,7 +1771,7 @@ system 24/7 Online Support 💯.\n\n` +
                     currentData.config = sessionConfig;
                     activeSockets.set(sanitizedNumber, currentData);
                 }
-                await reply(`𝘾𝘼𝙇𝙇 𝘾𝙐𝙏 𝙊𝙁𝙁 𝙎𝙐𝘾𝘾𝙀𝙎𝙎 ✅\n> SHANA Devalopee ✹`);
+                await reply(`𝘾𝘼𝙇𝙇 𝘾𝙐𝙏 𝙊𝙁𝙁 𝙎𝙐𝘾𝘾𝙀𝙎𝙎 ✅\n> HEWA SERVICE ✹`);
                 console.log(`✅ [SHANA AGENT] Call cut OFF for ${sanitizedNumber}`);
 
             } else {
@@ -1801,7 +1798,7 @@ system 24/7 Online Support 💯.\n\n` +
                     currentData.config = sessionConfig;
                     activeSockets.set(sanitizedNumber, currentData);
                 }
-                await reply(`𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝙎𝙩𝙖𝙩𝙪𝙨 𝙊𝙣 𝙎𝙐𝘾𝘾𝙀𝙎𝙎 ✅\n> SHANA Devalopee ✹`);
+                await reply(`𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝙎𝙩𝙖𝙩𝙪𝙨 𝙊𝙣 𝙎𝙐𝘾𝘾𝙀𝙎𝙎 ✅\n> HEWA SERVICE ✹`);
                 console.log(`✅ [WH STATUS] Status auto view+like ON for ${sanitizedNumber}`);
 
             } else if (action === 'off') {
@@ -1816,7 +1813,7 @@ system 24/7 Online Support 💯.\n\n` +
                     currentData.config = sessionConfig;
                     activeSockets.set(sanitizedNumber, currentData);
                 }
-                await reply(`𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝙎𝙩𝙖𝙩𝙪𝙨 𝙊𝙛𝙛  𝙎𝙐𝘾𝘾𝙀𝙎𝙎 ✅\n> SHANA Devalopee ✹`);
+                await reply(`𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝙎𝙩𝙖𝙩𝙪𝙨 𝙊𝙛𝙛  𝙎𝙐𝘾𝘾𝙀𝙎𝙎 ✅\n> HEWA SERVICE ✹`);
                 console.log(`✅ [WH STATUS] Status auto view+like OFF for ${sanitizedNumber}`);
 
             } else {
@@ -1848,7 +1845,7 @@ system 24/7 Online Support 💯.\n\n` +
                 autoSaveEnabled.set(botNumber, action === 'on');
                 if (!autoSaveCounters.has(botNumber)) autoSaveCounters.set(botNumber, 0);
 
-                await reply(`𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝘼𝙪𝙩𝙤 𝙎𝙖𝙫𝙚 ${action} 𝙎𝙪𝙘𝙘𝙚𝙨𝙨 ✅\n> SHANA Devalopee ✹`);
+                await reply(`𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝘼𝙪𝙩𝙤 𝙎𝙖𝙫𝙚 ${action} 𝙎𝙪𝙘𝙘𝙚𝙨𝙨 ✅\n> HEWA SERVICE ✹`);
                 console.log(`✅ [AUTO SAVE] ${action.toUpperCase()} for ${sanitizedNumber}`);
 
             } else {
