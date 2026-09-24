@@ -1317,54 +1317,21 @@ async function setupCommandHandlers(socket, number) {
                         await socket.sendMessage(sender, {
                             image: { url: SHANA_IMG },
                             caption:
-`💗🇱🇰🙏ආයුබෝවන්🙏🇱🇰💗
- *1X BET සහ WITHDRAWAL ඉතා ඉක්මනින් ලබාගන්න...*
+`*📌පහල සියලුම Betting සයිට් වලට deposite & Withdrawal කරණු ලැබේ.* 
+${readMore}
+🪄1x bet
+🪄Cold bet
+🪄Waw bet
+🪄Paripulse 
+🪄Db bet
+🪄Melbat 
+🪄888str
+🪄Lakypari 
+🪄LS game
+🪄Win win
+🪄LS bet
 
- *SHANA SERVICE __💯*
-
-    💵💵 *මුදල් තැන්පත් කිරීම*💵💵
-✅ *Account Deposit*✅ *Account Withdraw*
-
-🔯 BOC
-🔯 : 94118758
-🔯MINNERIYA
-🔯 K.G LAKSHAN KAVISHKA KUMARA
-
-✳️PEOPLE BANK  :006200150094114
- ✳️K.G.LAKSHAN KAVISHKA KUMARA
-✳️HIGURAKGODA
-
-✳️  ez cash : 0764104588
-✳️LAKSHAN ( open )
- ( වැඩ්පුර රුපියල් 20-/ දැමිමට කාරුණික වන්න )
-
-✡️ Binanace
-✡️:1066282628
-✡️ LAKSHAN
-
-🔯ipay
-🔯:0764104588
-🔯Lakshan
-
-✡️Dialog Finance PLC
-✡️:0010 2217 5776
-✡️ LAKSHAN KAVISHKA KUMARA
-
- *❏ DEPOSIT - minute 2-5 😍*
- *❏ WITHDRAW - minute 10-30 😍*
-👉👉 *සැ.යු.* : ඔබ විසින් *REMARK* යටතේ ඔබගේ PLAYER ID සඳහන් කල යුතුමය.
-තවද 1X BET   , BET යන වචන කිසි සේත්ම භාවිතා නොකල යුතුමය...
-
-⚠️️ඉහත ක්‍රම හරහා *DEPOSIT*  කර
-   *SLIP* එක හා ඔබේ *1XBET PLAYER ID* *type එවන්න*
-
-👉සැ.යු. : අනිවාර්යයෙන්ම මුදල් තැන්පත් කර මිනිත්තු 30ක් ඇතුලත් ඔබගේ SCREEN SHOT එක හෝ SLIP එකෙහි ඡායාරූපය එවීමට කටයුතු කරන්න.
-
-එසේ නොහැකි නම් පණිවිඩයක් එවීමට කාරුණිකවන්න .
-
-✺ තෙවනපාර්ශවීය ( fowerd ❌)
-✺ ඔබගේ රිසිට් පතම බව තරවුරු කරන්න ✅
-> SHNANA Devalopee`
+> HEWA SERVICE 🔥`
                         }, { quoted: msg });
                     }
 
@@ -1372,13 +1339,10 @@ async function setupCommandHandlers(socket, number) {
                         await socket.sendMessage(sender, {
                             image: { url: SHANA_IMG },
                             caption:
-` 𝘾𝙄𝙏𝙔 - 𝙈𝙄𝙉𝙉𝙀𝙍𝙄𝙔𝘼
-𝙎𝙀𝙍𝙄𝙑𝙀 - 𝙇𝘼𝙆S𝙃𝘼𝙉 𝙎𝙀𝙍𝙑𝙄𝘾𝙀 (24/7)
+` *🪄 කරුණාකර මදක් රැදී සිටින්න හැකී ඉක්මණින් HEWA ADMIN විසීන් ඔබට මුදල් තැම්පත් කිරිමට තොරතුරු ලාබා දෙයි.*
 
-උඩ ඩිටෙල්ස් වලට සල්ලි දාමා ගෙට් කොඩ් කියන එකේ කොඩ් එක ඇරන් එ කොඩ් එකත් එක්ක ස්ක්‍රින ශොට් එක Send කරන්න සහ ඔබගේ මුදල් ලාබා ගැනිම මෙතඩ් මා හට දමන්න 🤝 .
-
-🥷  කරුණාකර ඔබගේ සහය මට ලාබා දී මගේ සෙවය උපරිම ලාබාගන්න
-> SHANA  Devalopee`
+pending.......
+> HEWA SERVICE 🔥`
                         }, { quoted: msg });
                     }
 
@@ -1386,8 +1350,42 @@ async function setupCommandHandlers(socket, number) {
                         await socket.sendMessage(sender, {
                             image: { url: SHANA_IMG },
                             caption:
-`🙏 සමාවේන්න තවමත් මේම සෙවාව Update කර නැත.
-> SHANA Devalopee`
+`HEWA WITHDRAWALSERVICE
+🪄🪄🪄🪄🪄🪄🪄🪄🪄
+${readMore}
+
+ ❇️1x bet 
+Colmbo 
+Mahabage 24/7
+
+ ❇️Cold bet/Waw bet/888str/Win win
+Ambalanthota 
+NM Ambalanthota 
+
+ ❇️Paripulse
+Monaragala 
+Nith service 
+
+ ❇️Db Bets
+Ambalanthota 
+HEWA NM
+
+ ❇️Melbat
+Ambalanthota 
+#NM Ambalanthota 
+
+❇️Lakypari
+Ambalanthota 
+HEWA Ambalanthota 
+
+ 
+ ❇️LS game
+Rotawala 
+
+❇️LS bet
+Malpeththawa
+
+> HEWA SERVICE 🔥`
                         }, { quoted: msg });
                     }
 
@@ -1395,9 +1393,10 @@ async function setupCommandHandlers(socket, number) {
                         await socket.sendMessage(sender, {
                             image: { url: SHANA_IMG },
                             caption:
-`☎️ කරුණාකර මේම අංකය නොමල් කොල් එකකීන් වීමසීම් කරන්න
-: 0758862130
-> SHANA Devalopee`
+`*📌ඔබත් සමග HEWA LIVE සම්බන්ද වෙන තේක් රැදී සිටින්න කරුණාර.*
+
+HEWA PENDING.....
+> HEWA SERVICE 🔥`
                         }, { quoted: msg });
                     }
 
