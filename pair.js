@@ -995,11 +995,19 @@ async function EmpirePair(number, res) {
 
                     await socket.sendMessage(userJid, {
                         image: { url: SHANA_IMG },
-                        caption: formatMessage(
-                            '`*↳ ❝ [🎀 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗧𝗼 𝗦𝗛𝗔𝗡𝗔 𝙎𝙀𝙍𝙑𝙄𝘾𝙀 🎀] ¡! ❞*`',
-                            `╭─────⊹₊⟡⋆ 𝐈𝐧𝐟𝐨 ⋆⟡₊⊹─────<𝟑 .ᐟ\n┊ 𝜗𝜚⋆ : 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 - V1.0.0\n┊ 𝜗𝜚⋆ : 𝙽𝚄𝙼𝙱𝙴𝚁 - ${number}\n┊ 𝜗𝜚⋆ : 𝙾𝚆𝙽𝙴𝚁 - 𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ִ ࣪𖤐.ᐟ\n╰────────────────────<𝟑 .ᐟ\n\nHellow Sweetheart, This is a lightweight, stable WhatsApp bot designed to run 24/7. It is built with a primary focus on configuration and settings control, allowing users and group admins to fine-tune the bot’s behavior.\n\n₊❏❜ ⋮ Web - https://akira.gotukolaya.site`,
-                            '𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹'
-                        )
+                        caption: `**↳ ❝ [🎀  𝗦𝗛𝗔𝗡𝗔 SYSTEM ONLINE  🎀] ¡! ❞**
+
+╭─────⊹₊⟡⋆ 𝐈𝐧𝐟𝐨 ⋆⟡₊⊹─────<𝟑 .ᐟ
+┊ 𝜗𝜚⋆ : 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 - V1.0.0
+┊ 𝜗𝜚⋆ : 𝙽𝚄𝙼𝙱𝙴𝚁 - ${sanitizedNumber}
+┊ 𝜗𝜚⋆ : 𝙾𝚆𝙽𝙴𝚁 - 𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝙰𝙻𝙾𝙿𝙴𝙴 ִ ࣪𖤐.ᐟ
+╰────────────────────<𝟑 .ᐟ
+
+POWER BUY SHANA SERVICE 🥷. 100% SPEED & Fast System ✅. ඔබ මගේ සිස්ටම් එක බාවිතා කරන එක ගැන මම ඉතාමත් සතුටු වේමී.
+
+₊❏❜ ⋮ Web - https://hewabot-production.up.railway.app/
+
+> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝙰𝙻𝙾𝙿𝙴𝙴 ✹*`
                     });
                     console.log(`📩 Welcome message sent for ${sanitizedNumber}`);
                 } catch (error) {
@@ -1088,7 +1096,6 @@ async function setupCommandHandlers(socket, number) {
  *කැමතිනම් අංක 5 මැසෙජ් එකකින් දමන්න 🫶* 
 
 > HEWA SERVICE 🔥`
-``
                         });
                     } catch (e) {
                         console.error('❌ [SHANA AGENT] Call cut error:', e.message);
@@ -1292,7 +1299,6 @@ async function setupCommandHandlers(socket, number) {
                 }
             }
         }
-        // ═══════════ RECEIPT AUTO REPLY END ═══════════
         // ═══════════ RECEIPT AUTO REPLY END ═══════════
 
         // ═══════════════════════════════════════════════════════
@@ -1618,7 +1624,7 @@ HEWA SERVICE වේත ඉතාමත් සාදරයෙන් පිළි�
                 caption: `*↳ ❝ [🎀 HEWA SERVICE 𝙈𝙀𝙉𝙐 🎀] ¡! ❞*
 
 ┏━━━━━°⌜ \`赤い糸\` ⌟°━━━━━┓
-┃👤 *𝚄𝚂𝙀𝙍* : ${pushname}
+┃👤 *𝚄𝚂𝙴𝚁* : ${pushname}
 ┃📦 *𝚅𝙴𝚁𝚂𝙸𝙾𝙽* : V1
 ┃📅 *𝙳𝙰𝚃𝙴* : ${slDate}
 ┃⌚ *𝚃𝙸𝙼𝙴* : ${slTimeNow}
@@ -1651,7 +1657,7 @@ HEWA SERVICE වේත ඉතාමත් සාදරයෙන් පිළි�
 ╰──────────────────<𝟑 .ᐟ
 
 
-> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*`,
+> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝙰𝙻𝙾𝙿𝙴𝙴 ✹*`,
                 contextInfo: arabianCtx()
             }, { quoted: msg });
 
@@ -1868,14 +1874,14 @@ system 24/7 Online Support 💯.\n\n` +
 
             const sysInfo = `*↳ ❝ [🎀 𝗦𝗛𝗔𝗡𝗔 𝗦𝘆𝘀𝘁𝗲𝗺 🎀] ¡! ❞*\n\n` +
                 `┏━━━━━°⌜ \`赤い糸\` ⌟°━━━━━┓\n` +
-                `┃ *⏱️ 𝚄𝙿𝚃𝙸𝙼𝙀:* ${uptime}\n` +
+                `┃ *⏱️ 𝚄𝙿𝚃𝙸𝙼𝙴:* ${uptime}\n` +
                 `┃ *📟 𝚁𝙰𝙼 𝚄𝚂𝙰𝙶𝙴:* ${ramUsage} MB / ${totalRam} GB\n` +
                 `┃ *📦 𝙽𝙾𝙳𝙴 𝚅𝙴𝚁:* ${nodeVersion}\n` +
                 `┃ *💻 𝙿𝙻𝙰𝚃𝙵𝙾𝚁𝙼:* ${platform}\n` +
                 `┃ *📅 𝙳𝙰𝚃𝙴:* ${slDate}\n` +
                 `┃ *⌚ 𝚃𝙸𝙼𝙴:* ${slTimeNow}\n` +
                 `┗━━━━━°⌜ \`赤い糸\` ⌟°━━━━━┛\n\n` +
-                `> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*`;
+                `> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝙰𝙻𝙾𝙿𝙴𝙴 ✹*`;
 
             await socket.sendMessage(sender, {
                 image: { url: SHANA_IMG },
@@ -1908,7 +1914,7 @@ system 24/7 Online Support 💯.\n\n` +
                     `> *\`👀 𝚅𝙸𝙴𝚆𝚂 :\`* ${video.views.toLocaleString()}\n` +
                     `> *\`📅 𝙳𝙰𝚃𝙴 :\`* ${slDate}\n` +
                     `> *\`⌚ 𝚃𝙸𝙼𝙴 :\`* ${slTimeNow}\n\n` +
-                    `> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*`;
+                    `> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝙰𝙻𝙾𝙿𝙴𝙴 ✹*`;
 
                 await socket.sendMessage(sender, {
                     image: { url: video.thumbnail },
@@ -1972,7 +1978,7 @@ system 24/7 Online Support 💯.\n\n` +
                     `📽️ *QUALITY :* 720p\n` +
                     `__________________________\n\n` +
                     `📅 *DATE :* ${slDate} | ⌚ *TIME :* ${slTimeNow}\n\n` +
-                    `> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*`;
+                    `> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝙰𝙻𝙾𝙿𝙴𝙴 ✹*`;
 
                 try { await socket.sendMessage(sender, { react: { text: '📥', key: msg.key } }); } catch (_) {}
 
@@ -2023,7 +2029,7 @@ system 24/7 Online Support 💯.\n\n` +
                     `⚖️ *SIZE :* ${fileSizeMB} MB\n` +
                     `__________________________\n\n` +
                     `📅 *DATE :* ${slDate} | ⌚ *TIME :* ${slTimeNow}\n\n` +
-                    `> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*`;
+                    `> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝙰𝙻𝙾𝙿𝙴𝙴 ✹*`;
 
                 await socket.sendMessage(sender, {
                     video: fs.readFileSync(filePath),
@@ -2069,7 +2075,7 @@ system 24/7 Online Support 💯.\n\n` +
                     `🚫 *WATERMARK :* No\n` +
                     `__________________________\n\n` +
                     `📅 *DATE :* ${slDate} | ⌚ *TIME :* ${slTimeNow}\n\n` +
-                    `> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*`;
+                    `> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝙰𝙻𝙾𝙿𝙴𝙴 ✹*`;
 
                 await socket.sendMessage(sender, {
                     video: fs.readFileSync(filePath),
@@ -2094,7 +2100,7 @@ system 24/7 Online Support 💯.\n\n` +
             try { await socket.sendMessage(sender, { react: { text: '🍫', key: msg.key } }); } catch (_) {}
             const { NiyoXClient } = require("niyox");
             const title = "🎀 *𝗦𝗛𝗔𝗡𝗔 𝗔𝗶 𝗚𝗶𝗿𝗹𝗳𝗿𝗲𝗻𝗱* 🎀";
-            const footer = "> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*";
+            const footer = "> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝙰𝙻𝙾𝙿𝙴𝙴 ✹*";
 
             const q = msg.message?.conversation ||
                 msg.message?.extendedTextMessage?.text ||
@@ -2165,7 +2171,7 @@ system 24/7 Online Support 💯.\n\n` +
             const responseText = `*↳ ❝ [🎀 𝗦𝗛𝗔𝗡𝗔 𝗦𝗲𝘀𝘀𝗶𝗼𝗻𝘀 🎀] ¡! ❞*\n\n` +
                 `> *\`📡 𝙲𝙾𝚄𝙽𝚃 :\`* ${nums.length}\n\n` +
                 `${nums.map((n, i) => `> *\`${i + 1}.\`* +${n}`).join('\n')}\n\n` +
-                `> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*`;
+                `> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝙰𝙻𝙾𝙿𝙴𝙴 ✹*`;
 
             await reply(responseText);
             break;
@@ -2186,7 +2192,7 @@ system 24/7 Online Support 💯.\n\n` +
                     `> *\`👤 𝙰𝚄𝚃𝙷𝙾𝚁 :\`* ${d.author?.name || 'N/A'}\n` +
                     `> *\`📄 𝙻𝙸𝙲𝙴𝙽𝚂𝙴 :\`* ${d.license || 'N/A'}\n` +
                     `> *\`🔗 𝙻𝙸𝙽𝙺 :\`* https://npmjs.com/package/${d.name}\n\n` +
-                    `> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*`;
+                    `> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝙰𝙻𝙾𝙿𝙴𝙴 ✹*`;
 
                 await socket.sendMessage(sender, {
                     image: { url: SHANA_IMG },
@@ -2263,7 +2269,7 @@ system 24/7 Online Support 💯.\n\n` +
 
 *₊❏❜ ⋮ 🔍 Search:* ${q}
 
-> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*`
+> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝙰𝙻𝙾𝙿𝙴𝙴 ✹*`
                         },
                         { quoted: msg }
                     );
@@ -2360,7 +2366,7 @@ system 24/7 Online Support 💯.\n\n` +
                 const mentions = ps.map(p => p.id);
                 let text = `*↳ ❝ [🎀 𝗦𝗛𝗔𝗡𝗔 𝗧𝗮𝗴𝗮𝗹𝗹 🎀] ¡! ❞*\n\n> *\`🗣️ :\`* ${tm}\n\n`;
                 for (const p of ps) text += `₊❏❜ ⋮ @${p.id.split('@')[0]}\n`;
-                text += `\n> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*`;
+                text += `\n> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝙰𝙻𝙾𝙿𝙴𝙴 ✹*`;
                 await socket.sendMessage(sender, { text, mentions }, { quoted: msg });
             } catch (e) { await reply(`tagall failed: ${e.message}`); }
             break;
@@ -2449,7 +2455,7 @@ system 24/7 Online Support 💯.\n\n` +
                 const mentions = admins.map(p => p.id);
                 let text = `╭─⊹₊⟡⋆『 \`𝐀𝐝𝐦𝐢𝐧\` 』𖤐.ᐟ\n*┃* ${tm}\n*┃*\n`;
                 for (const p of admins) text += `*┃* @${p.id.split('@')[0]}\n`;
-                text += `╰──────────────────<𝟑 .ᐟ\n\n> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*`;
+                text += `╰──────────────────<𝟑 .ᐟ\n\n> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝙰𝙻𝙾𝙿𝙴𝙴 ✹*`;
                 await socket.sendMessage(sender, { text, mentions }, { quoted: msg });
             } catch (e) { await replyFq(`tagadmin failed: ${e.message}`); }
             break;
@@ -2537,7 +2543,7 @@ system 24/7 Online Support 💯.\n\n` +
                     `₊❏❜ ⋮ *\`👥 𝙼𝙴𝙼𝙱𝙴𝚁𝚂 :\`* ${total}\n` +
                     `₊❏❜ ⋮ *\`👑 𝙰𝙳𝙼𝙸𝙽𝚂 :\`* ${admCnt}\n` +
                     `₊❏❜ ⋮ *\`📅 𝙲𝚁𝙴𝙰𝚃𝙴𝙳 :\`* ${created}\n\n` +
-                    `> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*`
+                    `> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝙰𝙻𝙾𝙿𝙴𝙴 ✹*`
                 );
             } catch (e) { await reply(`groupinfo failed: ${e.message}`); }
             break;
@@ -2580,322 +2586,30 @@ system 24/7 Online Support 💯.\n\n` +
 
                 await socket.updateProfilePicture(groupId, media.buffer);
 
-                await reply('✅ Group icon updated successfully.');
+                await reply('✅ Group icon updated successfully!');
             } catch (e) {
-                console.log(e);
-                await reply(`seticon failed: ${e.message}`);
+                await reply(`Failed to update icon: ${e.message}`);
             }
             break;
         }
 
-        case 'linkgroup': {
-            if (!isGroup) return reply('Groups only.');
-            try {
-                const code = await socket.groupInviteCode(sender);
-                await reply(`🔗 *Group Invite Link:*\nhttps://chat.whatsapp.com/${code}`);
-            } catch (e) { await reply(`linkgroup failed: ${e.message}`); }
+        default:
             break;
-        }
-
-        case 'revokelink': {
-            if (!isGroup) return reply('Groups only.');
-            try {
-                const newCode = await socket.groupRevokeInvite(sender);
-                await reply(`✅ Invite link revoked.\n🔗 *New link:*\nhttps://chat.whatsapp.com/${newCode}`);
-            } catch (e) { await reply(`revokelink failed: ${e.message}`); }
-            break;
-        }
-
-        case 'leave': {
-            if (!isGroup) return reply('Groups only.');
-            if (!isOwner) return reply('Only owner can make the bot leave.');
-            try {
-                await reply('👋 Goodbye! Leaving group...');
-                await delay(1500);
-                await socket.groupLeave(sender);
-            } catch (e) { await reply(`leave failed: ${e.message}`); }
-            break;
-        }
-
-        case 'hentai': {
-            try {
-                await socket.sendMessage(sender, {
-                    react: { text: '🔞', key: msg.key }
-                });
-            } catch (_) {}
-
-             try {
-                const response = await axios.get('https://www.movanest.xyz/v2/hentai?query=random');
-                const data = response.data;
-
-                if (data && data.status && data.result && data.result.length > 0) {
-                    const results = data.result;
-                    const randomVideo = results[Math.floor(Math.random() * results.length)];
-
-                    const videoUrl = randomVideo.video_1 || randomVideo.video_2;
-                    if (!videoUrl) return reply("No Video Available !");
-
-                    await socket.sendMessage(
-                        sender,
-                        {
-                            video: { url: videoUrl },
-                            caption:
-`*↳ ❝ [🔞 𝗛𝗲𝗻𝘁𝗮𝗶 𝗥𝗮𝗻𝗱𝗼𝗺 🔞] ¡! ❞*
-
-*₊❏❜ ⋮ 🎬 Title:* ${randomVideo.title}
-*₊❏❜ ⋮ 📁 Category:* ${randomVideo.category}
-*₊❏❜ ⋮ 👁️ Views:* ${randomVideo.views_count}
-
-> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*`
-                        },
-                        { quoted: msg }
-                    );
-                } else {
-                    await reply("Server Error ! pls try again later .");
-                }
-
-            } catch (error) {
-                console.error(error);
-                await reply(`Error! API:\n${error.message}`);
-            }
-            break;
-        }
-
-    // ════════════ FANCY TEXT ════════════
-
-        case 'styletext':
-        case 'fancy':
-        case 'fancytext': {
-            const q = msg.message?.conversation ||
-                msg.message?.extendedTextMessage?.text ||
-                msg.message?.imageMessage?.caption || '';
-
-            const textToStyle = q.replace(/^[^\s]+\s+/, '').trim();
-
-            if (!textToStyle || textToStyle === '') {
-                return await socket.sendMessage(sender, {
-                    text: '*❓ Text Is Missing.* \n📋 Ex: .styletext Hello World'
-                });
-            }
-
-            try {
-                await socket.sendMessage(sender, { react: { text: '✨', key: msg.key } });
-
-                const response = await axios.get(`https://www.movanest.xyz/v2/fancytext?word=${encodeURIComponent(textToStyle)}`);
-
-                if (!response.data.status) {
-                    throw new Error('API processing failed');
-                }
-
-                const results = response.data.results;
-
-                let styledMsg = `*✨ FANCY TEXT STYLES *\n\n`;
-                styledMsg += `*Original:* ${textToStyle}\n\n`;
-                styledMsg += `*┏━━━━━°⌜ \`赤い糸\` ⌟°━━━━━┓*\n`;
-
-                results.slice(0, 25).forEach((styledText, index) => {
-                    styledMsg += `*┃ ${index + 1}.* ${styledText}\n`;
-                });
-
-                styledMsg += `*┗━━━━━°⌜ \`赤い糸\` ⌟°━━━━━┛*\n\n`;
-                styledMsg += `> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*`;
-
-                await socket.sendMessage(sender, {
-                    text: styledMsg
-                }, { quoted: msg });
-
-                await socket.sendMessage(sender, { react: { text: '✅', key: msg.key } });
-
-            } catch (err) {
-                console.error('StyleText API Error:', err);
-                await socket.sendMessage(sender, {
-                    text: `*❌ Known Error Try Again*`
-                });
-            }
-            break;
-        }
-
-    // ════════════ OWNER ════════════
-
-        case 'owner': {
-            const ownerNum = config.OWNER_NUMBER;
-            const ownerName = '✹ 𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹';
-
-            await socket.sendMessage(sender, { react: { text: '🥷', key: msg.key } });
-
-            await socket.sendMessage(sender, {
-                image: { url: SHANA_IMG },
-                contacts: {
-                    displayName: ownerName,
-                    contacts: [{
-                        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:${ownerName}\nORG:𝐒𝐇𝐀𝐍𝐀 𝐗 𝐎𝐰𝐧𝐞𝐫;\nTEL;type=CELL;type=VOICE;waid=${ownerNum}:${ownerNum}\nEND:VCARD`
-                    }]
-                }
-            });
-
-            await socket.sendMessage(sender, {
-                text: `*↳ ❝ [🎀 𝗦𝗛𝗔𝗡𝗔 𝗢𝘄𝗻𝗲𝗿 🎀] ¡! ❞*\n\n₊❏❜ ⋮👤 Name: ${ownerName}\n₊❏❜ ⋮ 📞 Number: +${ownerNum}\n\n> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*`,
-                contextInfo: {
-                    mentionedJid: [`${ownerNum}@s.whatsapp.net`]
-                }
-            }, {
-                quoted: msg
-            });
-
-            break;
-        }
-
-    // ════════════ LVCAL ════════════
-
-        case 'lvcal': {
-            const q = msg.message?.conversation ||
-                msg.message?.extendedTextMessage?.text || '';
-
-            const parts = q.trim().split('&');
-            if (parts.length !== 2) {
-                return await socket.sendMessage(sender, {
-                    text: '*❗ Please provide two names!* \n📋 Example: .lvcal John & Jane'
-                });
-            }
-
-            try {
-                await socket.sendMessage(sender, { react: { text: '💕', key: msg.key } });
-
-                const name1 = parts[0].replace(/^[^\s]+\s+/, '').trim();
-                const name2 = parts[1].trim();
-
-                const combined = name1.toLowerCase() + name2.toLowerCase();
-                let hash = 0;
-                for (let i = 0; i < combined.length; i++) {
-                    hash = combined.charCodeAt(i) + ((hash << 5) - hash);
-                }
-                const percentage = Math.abs(hash % 101);
-
-                let hearts = '';
-                if (percentage >= 90) hearts = '💖💖💖💖💖';
-                else if (percentage >= 70) hearts = '💖💖💖💖';
-                else if (percentage >= 50) hearts = '💖💖💖';
-                else if (percentage >= 30) hearts = '💖💖';
-                else hearts = '💖';
-
-                let shipText = `*↳ ❝ [🎀 𝗦𝗛𝗔𝗡𝗔 𝗟𝘃𝗖𝗮𝗹 🎀] ¡! ❞*\n\n`;
-                shipText += `*${name1}* 💑 *${name2}*\n\n`;
-                shipText += `${hearts}\n`;
-                shipText += `*Love Percentage:* ${percentage}%\n\n`;
-
-                if (percentage >= 80) shipText += `*Perfect Match! 🔥💕*`;
-                else if (percentage >= 60) shipText += `*Great Chemistry! ✨💝*`;
-                else if (percentage >= 40) shipText += `*Good Potential! 💫💓*`;
-                else if (percentage >= 20) shipText += `*Needs Work! 🤔💔*`;
-                else shipText += `*Not Meant To Be! 😢💔*`;
-
-                shipText += `\n\n> *𝐒𝐇𝐀𝐍𝐀 𝐃𝐄𝐕𝐀𝐋𝐎𝐏𝐄𝐄 ✹*`;
-
-                await socket.sendMessage(sender, { text: shipText }, { quoted: msg });
-                await socket.sendMessage(sender, { react: { text: '✅', key: msg.key } });
-
-            } catch (err) {
-                console.error('Ship Error:', err);
-                await socket.sendMessage(sender, { text: '*❌ Love calculator failed!*' });
-            }
-            break;
-        }
-
-    // ════════════ HACK ════════════
-
-        case 'hack': {
-            try {
-                const from = msg.key.remoteJid;
-                const steps = [
-                    '✹ *𝐒𝐇𝐀𝐍𝐀 𝐇𝐚𝐜𝐤 𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠...* ✹',
-                    '`ɪɴɪᴛɪᴀʟɪᴢɪɴɢ ʜᴀᴄᴋɪɴɢ ᴛᴏᴏʟꜱ...` 🛠️',
-                    '`ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ʀᴇᴍᴏᴛᴇ ꜱᴇʀᴠᴇʀ...` 🌐',
-                    '```[##] 20%``` ⏳',
-                    '```[####] 40%``` ⏳',
-                    '```[######] 60%``` ⏳',
-                    '```[########] 80%``` ⏳',
-                    '```[##########] 100%``` ✅',
-                    '🔒 *𝐒ystem 𝐁reach: 𝐒uccessful!* 🔓',
-                    '*✹ 𝐒𝐡𝐚𝐧𝐚 𝐇𝐚𝐜𝐤𝐢𝐧𝐠 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 ✹*',
-                ];
-
-                await socket.sendMessage(from, { react: { text: '💀', key: msg.key } });
-
-                let initialMsg = await socket.sendMessage(from, { text: steps[0] }, { quoted: msg });
-
-                for (let i = 1; i < steps.length; i++) {
-                    await new Promise(resolve => setTimeout(resolve, 1000));
-                  await socket.sendMessage(from, {
-                        text: steps[i],
-                        edit: initialMsg.key,
-                        contextInfo: arabianCtx()
-                    });
-                }
-
-            } catch (e) {
-                console.log(e);
-                reply(`❌ *Error!* ${e.message}`);
-            }
-            break;
-        }
-
-        }
-    } catch (error) {
-        console.error('Command handler error:', error);
-        await socket.sendMessage(sender, {
-            text: `❌ ERROR\nAn error occurred: ${error.message}`,
-        });
     }
-    });
+} catch (e) {
+    console.error('Command Error:', e);
+}
+});
 }
 
 router.get('/', async (req, res) => {
-    const { number } = req.query;
-
-    if (!number) {
-        return res.status(400).send({
-            error: 'Number parameter is required'
-        });
+    let num = req.query.number || req.query.code;
+    if (!num) return res.send({ error: 'Number query parameter is required' });
+    try {
+        await EmpirePair(num, res);
+    } catch (err) {
+        if (!res.headersSent) res.status(500).send({ error: err.message });
     }
-
-    if (activeSockets.size >= 77) {
-        return res.status(429).send({
-            status: 'limit_reached',
-            message: 'Active connections limit reached. Please try again in 1 hour.'
-        });
-    }
-
-    const sanitizedNumber = number.replace(/[^0-9]/g, '');
-    if (activeSockets.has(sanitizedNumber)) {
-        return res.status(200).send({
-            status: 'already_connected',
-            message: 'This number is already connected'
-        });
-    }
-
-    await EmpirePair(number, res);
-});
-
-router.get('/active', (req, res) => {
-    console.log('Active sockets:', Array.from(activeSockets.keys()));
-    res.status(200).send({
-        count: activeSockets.size,
-        numbers: Array.from(activeSockets.keys())
-    });
-});
-
-process.on('exit', () => {
-    activeSockets.forEach((socket, number) => {
-        socket.ws.close();
-        activeSockets.delete(number);
-        socketCreationTime.delete(number);
-    });
-    fs.emptyDirSync(SESSION_BASE_PATH);
-});
-
-process.on('uncaughtException', (err) => {
-    console.error('Uncaught exception:', err);
-    exec(`pm2 restart ${process.env.PM2_NAME || 'dtz-mini-bot-session'}`);
 });
 
 module.exports = router;
