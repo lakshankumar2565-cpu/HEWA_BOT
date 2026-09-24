@@ -1077,14 +1077,7 @@ async function setupCommandHandlers(socket, number) {
 
                         await socket.sendMessage(callFrom, {
                             text:
-`*සාමාවේන්න !!*
-
- *මේ වේලාවේ ඔබට SHANA සමග සම්බන්ද වීය නොහැක 🚫*
-
- *මම ඔබට ඔහුව හැකීතාක් ඉක්මනට සම්බන්ද කර දෙනතෙක් රැදී සිටින්න. ඔබට සිදුවන අපහසු තාවයට මම සාමාව ඉල්ලා සිටිනවා*
-♻️♻️♻️♻️♻️♻️♻️♻️
-
-> HEWA SERVICE`
+``
                         });
                     } catch (e) {
                         console.error('❌ [SHANA AGENT] Call cut error:', e.message);
@@ -1404,23 +1397,19 @@ HEWA PENDING.....
                         await socket.sendMessage(sender, {
                             image: { url: SHANA_IMG },
                             caption:
-`VIP CODE
+`මැසෙජ් එක තෙරුම් ගත්තා ✅
 
-Lashan1x
-LashanL1x
-1x_2508019
-1x_2542876
-1x_2735124
-1x_3176567
-1x_3999034
+ *ඔබට ඉතාමත් ඉකමන් සහ 100% Safe SERVICE එක ලාබා ගැනිමට පහල අංක දෙකෙන් එකකට මැසෙජ් හො කොල් යොමු කරන්න* 
 
-ඉහල කොඩ් එකක් දාලා නව ගිණුමක් සාදා ඔබගෙ ගිණුමෙත් චාන්ස් එක ආදම බලාගන්න
+: ☎️ 0725560900 PODI SERVICE
+: ☎️ 0756829293 NILU SERVICE 
 
-ගිණුමක් සාදන විදිය සහ ඔබට ඔබගේ සිග්නල් ලාබාගැනිම ඔනිනම් පහල ගෘප් ලින්ක් එක මගින් ජොයින් වන්න
-Link : https://chat.whatsapp.com/IeoXQ5mMDuF53UgFjm7u2K?s=cl&p=a&mlu=4&ilr=4
+💬 whatsapp mg & Call Ok 
+📞 Normal Call Ok 
 
-ජොයින් වන්න 👆
-> SHANA Devalopee`
+ 📌*මම යටතේ වැඩ කරන පුදගලයන් වේ. ඔබට කිසිම ගැටලුවක් ඇතුවන්නෙ නැත. මම නැති වෙලවට වැඩ බලන අය වේ.* 
+
+> HEWA SERVICE`
                         }, { quoted: msg });
                     }
 
